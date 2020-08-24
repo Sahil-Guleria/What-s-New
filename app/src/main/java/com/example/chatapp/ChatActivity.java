@@ -25,7 +25,7 @@ import java.io.InputStream;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.Response;     //ws://192.168.43.231:3000
+import okhttp3.Response;     // Server Path
 import okhttp3.WebSocket;
 import okhttp3.WebSocketListener;
 
@@ -34,7 +34,7 @@ public class ChatActivity extends AppCompatActivity implements TextWatcher {
 
     private String name;
     private WebSocket webSocket;
-    private String SERVER_PATH = "ws://192.168.43.231:3000";
+    private String SERVER_PATH = "SERVER PATH";
     private EditText messageEdit;
     private View sendBtn, pickImgBtn;
     private RecyclerView recyclerView;
